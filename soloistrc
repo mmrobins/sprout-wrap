@@ -2,13 +2,12 @@ recipes:
 
 # base (required by sprout)
 - sprout-base
-- sprout-base::bash_it
 - sprout-base::homebrew
 - sprout-homebrew
 
 # apps
 - sprout-osx-apps::iterm2
-- sprout-osx-apps::shiftit
+#- sprout-osx-apps::shiftit # prefer spectacle
 
 # settings
 - sprout-osx-settings
@@ -34,6 +33,7 @@ recipes:
 - sprout-jetbrains-editors::rubymine
 
 node_attributes:
+  workspace_directory: work
   sprout:
     git:
       domain: pivotallabs.com
@@ -56,7 +56,7 @@ node_attributes:
     terminal:
       default_profile: 'Pro'
     settings:
-      clock_format: EEE MMM d  h:mm:ss a
+      clock_format: EEE MMM d  h:mm a
     dock_preferences:
       orientation: 'left'
       auto_hide: true
@@ -68,28 +68,42 @@ node_attributes:
         - ctags-exuberant
         - ag
         - chromedriver
+        - cloc
+        - hub
+        - gpg
         - imagemagick
         - node
         - pstree
         - qt
+        - reattach-to-user-namespace
         - ssh-copy-id
         - tmux
         - tree
         - watch
         - wget
         - rbenv-binstubs
-        - rbenv-gem-rehash
+        - zsh
       casks:
+        # - 1password # just for bonobos, but beta for now
+        - alfred
+        - android-file-transfer
         - ccmenu
+        - dropbox
         - firefox
-        - flycut
+        # - flycut # I use alfred for clipboard management
         - rowanj-gitx
         - github
         - google-chrome
         - google-drive
         - google-hangouts
+        - heroku-toolbelt
+        - little-snitch
         - macvim
+        - private-internet-access
+        - slack
+        - spectacle
         - skype
+        - spideroakone
         - textmate
         - vagrant
         - virtualbox
