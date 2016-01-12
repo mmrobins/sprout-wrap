@@ -29,8 +29,8 @@ recipes:
 - sprout-postgresql
 
 # apps (editors)
-- sprout-osx-apps::textmate_preferences
-- sprout-jetbrains-editors::rubymine
+#- sprout-osx-apps::textmate_preferences
+#- sprout-jetbrains-editors::rubymine
 
 node_attributes:
   sprout:
