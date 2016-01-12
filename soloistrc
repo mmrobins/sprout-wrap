@@ -35,6 +35,11 @@ recipes:
 node_attributes:
   workspace_directory: work
   sprout:
+    rbenv:
+      rubies:
+        - 2.1.7
+        - 2.2.4
+        - 2.3.0
     git:
       domain: pivotallabs.com
       authors:
