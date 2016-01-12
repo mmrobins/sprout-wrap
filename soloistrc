@@ -33,7 +33,6 @@ recipes:
 - sprout-jetbrains-editors::rubymine
 
 node_attributes:
-  workspace_directory: work
   sprout:
     rbenv:
       rubies:
@@ -41,19 +40,12 @@ node_attributes:
         - 2.2.4
         - 2.3.0
     git:
-      domain: pivotallabs.com
+      workspace_directory: work
+      domain: bonobos.com
       authors:
-        - initials: ah
-          name: Abhijit Hiremagalur
-          username: abhi
-        - initials: bc
-          name: Brian Cunnie
-          username: cunnie
-        - initials: jrhb
-          name: Jonathan Barnes
-        - initials: lw
-          name: Luke Winikates
-          username: lwinikates
+        - initials: mr
+          name: Matt Robinson
+          username: mmrobins
       projects:
         -
           name: sprout-wrap
