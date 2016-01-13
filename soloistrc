@@ -94,11 +94,13 @@ node_attributes:
         - google-drive
         - google-hangouts
         - heroku-toolbelt
+        - java
         - little-snitch
         - macvim
         - private-internet-access
         - slack
         - spectacle
+        - skitch
         - skype
         - spideroakone
         - textmate
@@ -106,3 +108,4 @@ node_attributes:
         - virtualbox
         - xquartz
         - xscope
+        - steam
