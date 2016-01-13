@@ -82,7 +82,6 @@ node_attributes:
         - zsh
       casks:
         # - 1password # just for bonobos, but beta for now
-        - alfred
         - android-file-transfer
         - ccmenu
         - dropbox
@@ -95,17 +94,18 @@ node_attributes:
         - google-hangouts
         - heroku-toolbelt
         - java
-        - little-snitch
         - macvim
-        - private-internet-access
         - slack
         - spectacle
         - skitch
         - skype
-        - spideroakone
         - textmate
         - vagrant
         - virtualbox
         - xquartz
         - xscope
+        - alfred
+        - little-snitch
+        - private-internet-access
+        - spideroakone
         - steam
