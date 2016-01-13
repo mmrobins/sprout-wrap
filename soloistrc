@@ -84,6 +84,7 @@ node_attributes:
         # - 1password # just for bonobos, but beta for now
         - android-file-transfer
         - ccmenu
+        - disk-inventory-x
         - dropbox
         - firefox
         # - flycut # I use alfred for clipboard management
