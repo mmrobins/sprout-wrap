@@ -66,6 +66,7 @@ node_attributes:
         - ag
         - chromedriver
         - cloc
+        - htop
         - hub
         - gpg
         - imagemagick
@@ -106,7 +107,9 @@ node_attributes:
         - xquartz
         - xscope
         - alfred
+        - boom
         - little-snitch
+        - picasa
         - private-internet-access
         - spideroakone
         - spotify
